@@ -32,13 +32,13 @@ def is_enabled(value, default):
 # Owner Information
 API_ID = int(environ.get("API_ID", "28243586"))
 API_HASH = environ.get("API_HASH", "4022d5686b9b7a7cf8891205921a0ab3")
-ADMINS = int(environ.get("ADMINS", "6879821587"))
+ADMINS = int(environ.get("ADMINS", "6929340267"))
 
 # Database Information
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://madarazbotz:ZbVCR4tEzvjolZTj@cluster0.gfqwloi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-CDB_NAME = environ.get("CDB_NAME", "cluster0")
-DB_URI = environ.get("DB_URI", "mongodb+srv://madarazbotz:tdtjS3HZdBL4sySJ@cluster0.urgm6f2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = environ.get("DB_NAME", "cluster0")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://MADARA-UCHIHA:shubhamgaming33@madara-uchiha.ya7m1.mongodb.net/?retryWrites=true&w=majority")
+CDB_NAME = environ.get("CDB_NAME", "madara-uchiha")
+DB_URI = environ.get("DB_URI", "mongodb+srv://jyotimaurya891824:qLp4PyOuMdYV5N7i@jyotimaurya.lobx8n6.mongodb.net/?retryWrites=true&w=majority")
+DB_NAME = environ.get("DB_NAME", "jyotimaurya")
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
@@ -46,7 +46,7 @@ DB_NAME = environ.get("DB_NAME", "cluster0")
 
 # Bot Information
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
-BOT_USERNAME = environ.get("BOT_USERNAME", "PAIN_SMK_BOT") # your bot username without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "SMKFILESTOREBOT") # your bot username without @
 PICS = (environ.get('PICS', 'https://graph.org/file/82ef767ffebe3a948e476.jpg https://graph.org/file/82ef767ffebe3a948e476.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
@@ -55,7 +55,7 @@ AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Second
 
 # Channel Information
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002057330647"))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002012750856')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1001694371548')).split()]
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
